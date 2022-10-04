@@ -1,5 +1,5 @@
 /*Tirando valores pré definidos da página*/
-body, ul, li, p{
+body, ul, li{
     margin: 0px;
     padding: 0px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Estilo da fonte*/
@@ -103,73 +103,108 @@ header{
 }
 
  /*Fundo da página*/
- body{
-    height: 300vh;
-    background: url(../img/camera.jpg.jpg);
+body{
+    height: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
- }
-
-
-/*Parte do rodapé*/
-footer{
-    width: 100%;
-    min-height: 250px;
-    background: rgb(0, 0, 0);
+}
+    
+ 
+/*Parte das fotos*/
+.galeria-fotos{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+ 
+.galeria-itens{
+    width: 400px;
+    height: 300px;
+    border: 5px solid #fff;
+    box-shadow: 5px 5px 5px #0009;
+    flex-grow: 1;
+    transition: transform 1s linear;
+}
+ 
+.galeria-itens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+.galeria-itens:hover{
+    transform: scale(1.3);
+    border: 5px solid rgb(255, 0, 0);
 }
 
- 
-footer .mbox{
-    width: 320px;
-    min-height: 150px;
-    padding: 5px;
-    text-align: center;
-}
- 
-footer .mbox:nth-child(4)
-{
-    width: 400px;
-}
- 
-.mbox h2{
-    color: rgb(255, 255, 255);
-    margin-bottom: 20px;
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     text-align: center;
- 
-}
- 
-.mbox ul li{
-    margin: 10px 0px;
-    list-style: none;
-}
- 
-.mbox ul li a{
     color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+/*Parte do rodapé*/
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+li a {
+    
+    text-decoration: none;  
+}
+a {
+    color: white;
     text-decoration: none;
-    font-size: 15px;
+    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
 }
- 
-.mbox ul li a:hover{
-    color: rgb(245, 7, 7);
+
+footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
 }
- 
- 
-/*Parte responsiva do rodapé*/
-@media(max-width: 950px){
-    footer{
-        flex-direction: column;
+
+footer{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.925);
+    height: auto;
+    width: 100vw;
+    font-family: "open sans-serif";
+    padding-top: 40px;
+    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
+}
+
+
+
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
     }
-    footer mbox{
-        width: 100%;
-        text-align: center;
-    }
-    footer .mbox:nth-child(4){
+}
+@media (max-width:600px) {
+    .footer-col{
         width: 100%;
     }
 }
