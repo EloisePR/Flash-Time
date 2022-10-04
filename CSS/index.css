@@ -1,5 +1,5 @@
 /*Tirando valores pré definidos da página*/
- body, ul, li, p{
+body, ul, li, p{
     margin: 0px;
     padding: 0px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Estilo da fonte*/
@@ -105,7 +105,7 @@ header{
  /*Fundo da página*/
  body{
     height: 300vh;
-    background: url(../img/camera.jpg.jpg) no-repeat;
+    background: url(../img/camera.jpg.jpg);
     background-size: cover;
     background-position: center center;
  }
