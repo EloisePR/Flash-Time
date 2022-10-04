@@ -113,6 +113,51 @@ body{
 
 /*Parte do rodapé*/
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+li a {
+    
+    text-decoration: none;  
+}
+a {
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.925);
+    height: auto;
+    width: 100vw;
+    font-family: "open sans-serif";
+    padding-top: 40px;
+    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
+}
+
+
+
 
 /* Responsivo */
 @media (max-width: 800px) {
