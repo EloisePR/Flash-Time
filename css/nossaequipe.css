@@ -8,15 +8,15 @@ body, ul, li, p{
  
  /*CSS Parte do cabeçalho*/
 header{
-    background-color: rgba(0, 0, 0, 0.925);
-    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+    background-color:  rgba(3, 3, 3, 0.74);
+    box-shadow: 5px, 5px, 5px rgba(3, 3, 3, 0.74);
 }
 
 .cabecalho{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
-    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+    box-shadow: 5px, 5px, 5px rgba(3, 3, 3, 0.74);
 }
 
 .logo{
@@ -105,7 +105,7 @@ header{
 
  /*Fundo da página*/
 body{
-    height: 200vh;
+    height: 100vh;
     background-color: rgba(116, 116, 116, 0.74);
 }
     
@@ -148,7 +148,7 @@ main p{
 
 .footer-basic {
     padding:40px 0;
-    background-color: black;
+    background-color: rgba(3, 3, 3, 0.74);
     color:#4b4c4d;
   }
   
