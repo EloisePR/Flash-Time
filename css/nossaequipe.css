@@ -16,6 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
 }
 
 .logo{
@@ -119,6 +120,40 @@ body{
     background-color: rgba(116, 116, 116, 0.74);
 }
     
+/*parte do assunto da pagina*/
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.904);
+    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+    background-color: rgba(3, 3, 3, 0.74);
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-inline: 100px;
+    text-align: center;
+}
+main p{
+    text-align: center;
+}
+.equipe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+.fotosequipe{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff;
+    box-shadow: 5px 5px 5px #0009;
+    transition: transform 1s linear;
+}
+.fotosequipe img{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
 
 /*Parte do rodapé*/
 
@@ -154,6 +189,8 @@ footer{
     font-family: "open sans-serif";
     padding-top: 40px;
     box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+    padding: 50px 0;
+    margin-top: 200px;
 }
 
 footer a{
