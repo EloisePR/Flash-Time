@@ -174,7 +174,7 @@ footer img{
 footer{
     display: flex;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.925);
+    background: rgb(0, 0, 0);
     height: auto;
     width: 100vw;
     font-family: "open sans-serif";
