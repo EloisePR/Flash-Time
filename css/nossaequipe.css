@@ -106,9 +106,7 @@ header{
  /*Fundo da página*/
 body{
     height: 200vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-color: rgba(116, 116, 116, 0.74);
 }
     
 /*parte do assunto da pagina*/
@@ -181,7 +179,7 @@ footer{
     padding-top: 40px;
     box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
     padding: 50px 0;
-    margin-top: 200px;
+    margin-top: 500px;
 }
 
 footer a{
