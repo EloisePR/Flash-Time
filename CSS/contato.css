@@ -129,15 +129,23 @@ body {
 form {
     font-family: Verdana,Tahoma,sans-serif;
     font-size: 15px;
-    background-color: 
     max-width: 500px;
 }
-
+.bolo {
+    margin: 40px auto;
+    display: block;
+}
 h1 {
     margin-bottom: 20px;
     margin-left: 20px;
-    color: #66FFFF;
+    color: brown;
     text-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+.batata {
+    color: #FFFFFF;
+    text-align: center;
+    
 }
 
 input, textarea {
@@ -153,14 +161,14 @@ input, textarea {
 
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #000066;
-    box-shadow: 5px 0px 9px #FFFF00;
-    background-color: #66FFFF;
+    box-shadow: 5px 0px 9px #FFFFFF;
+    background-color: darkgrey
     color: black;
     font-weight: bold;
 }
 
 .enviar {
-    background-color: #66FFFF;
+    background-color:#FFFFFF;
     height: 40px;
     width: 100px;
     font-weight: bold;
@@ -182,4 +190,50 @@ form label {
     margin-left: 20px;
     color: #FFFFFF;
     font-weight: bold;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.925);
+    height: auto;
+    width: 100vw;
+    font-family: "open sans-serif";
+    padding-top: 40px;
+    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+    padding: 50px 0;
+    margin-top: 500px;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
+}
+
+
+
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+meu_form {
+    width: 20px;
 }
