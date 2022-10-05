@@ -1,0 +1,13 @@
+body {
+  background-image: url(../img/camera.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-blend-mode: luminosity;
+  background-size: 100%;
+  background-position-y: center;
+  
+  
+}
+div {
+  text-align: center;
+}
