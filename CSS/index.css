@@ -152,7 +152,7 @@ p{
 
 .footer-basic {
     padding:40px 0;
-    background-color:#ffffff;
+    background-color: black;
     color:#4b4c4d;
   }
   
@@ -182,6 +182,7 @@ p{
   .footer-basic .social {
     text-align:center;
     padding-bottom:25px;
+    filter: invert(100%);
   }
   
   .footer-basic .social > a {
@@ -191,8 +192,8 @@ p{
     line-height:40px;
     display:inline-block;
     text-align:center;
-    border-radius:50%;
-    border:1px solid #ccc;
+    /*border-radius:50%;
+    border:1px solid #ccc;*/
     margin:0 8px;
     color:inherit;
     opacity:0.75;
