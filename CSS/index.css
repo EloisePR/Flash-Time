@@ -109,8 +109,62 @@ body{
     background-size: cover;
     background-position: center center;
 }
+<<<<<<< Updated upstream
     
 
+=======
+/*assunto da página*/   
+main p{
+    text-align: center;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.904);
+    box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+    background-color: rgba(3, 3, 3, 0.74);
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-inline: 100px;
+    text-align: center;
+}
+main h4{
+    color:red;
+    font-family: 'Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif'
+}
+
+ 
+/*Parte das fotos*/
+.galeria-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+ 
+.galeria-itens{
+    width: 400px;
+    height: 300px;
+    border: 5px solid #fff;
+    box-shadow: 5px 5px 5px #0009;
+    flex-grow: 1;
+    transition: transform 1s linear;
+}
+ 
+.galeria-itens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+.galeria-itens:hover{
+    transform: scale(1.3);
+    border: 5px solid rgb(241, 0, 0);
+}
+
+
+>>>>>>> Stashed changes
 
 /*Parte do rodapé*/
 
