@@ -7,13 +7,12 @@ body, ul, li{
 
 
 /*CSS Parte do cabeçalho*/
-
 .cabecalho{
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 6rem;
   background-color:rgba(0, 0, 0, 0.925);
-  box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
+  box-shadow: 5px, 5px, 5px rgba(3, 3, 3, 0.74);
 }
 
 
@@ -87,6 +86,8 @@ body, ul, li{
       flex-direction: column;
       text-align: center;
       padding-bottom: 1rem;
+      background-color:rgba(0, 0, 0, 0.925);
+      box-shadow: 0px, 3px, 10px rgba(3, 3, 3, 0.74);
   }
 
   .mobile-menu .item{
