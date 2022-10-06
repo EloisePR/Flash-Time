@@ -1,3 +1,4 @@
+/*Parte do cabeçalho*/
 function menushow(){
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')){
