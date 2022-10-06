@@ -160,7 +160,7 @@ input, textarea {
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #000066;
     box-shadow: 5px 0px 9px #FFFFFF;
-    background-color: darkgrey;
+    background-color: rgba(255, 1, 1, 0.473);
     color: black;
     font-weight: bold;
 }
