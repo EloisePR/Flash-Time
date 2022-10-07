@@ -7,7 +7,7 @@ Integrantes (O @ do github):
    BeatriceMacruz
    
  Link do site: 
- https://eloisepr.github.io/Flash-Time/
+  https://eloisepr.github.io/Flash-Time/
  
 SOBRE O PROJETO:
 1º projeto em grupo do curso de Programadores Carioca do resilia (SENAC), com proposta de criação de um site de uma empresa fictícia, tendo que atender os seguintes parâmetros:
