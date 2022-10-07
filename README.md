@@ -1,9 +1,9 @@
 # Flash-Time
 Integrantes (O @ do github):
-   EloisePR
-   Rafaelle Cardoso
-   Alexsandra2223
-   davidyui
+   EloisePR,
+   Rafaelle Cardoso,
+   Alexsandra2223,
+   davidyui,
    BeatriceMacruz
    
  Link do site: 
